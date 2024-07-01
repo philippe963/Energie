@@ -7,18 +7,15 @@ body {
     padding: 0;
 }
 
-/* Bandeau */
-.banner {
-    position: relative;
+/* Bandeau collé en haut à gauche */
+.banner-top-left {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    text-align: left;
-    margin-bottom: 20px;
-}
-
-.banner img {
-    width: 100%;
-    height: auto;
-    display: block;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
 }
 
 /* Titres */
