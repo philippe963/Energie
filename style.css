@@ -1,6 +1,6 @@
 /* Déclaration de la variable pour le décalage */
 :root {
-    --radio-margin-right: 10px; /* Ajustez cette valeur pour augmenter ou diminuer le décalage */
+    --radio-margin-right: 30px; /* Ajustez cette valeur pour augmenter ou diminuer le décalage */
 }
 
 /* Style général */
