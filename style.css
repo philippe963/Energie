@@ -196,6 +196,32 @@ table th {
     margin-left: 10px;
 }
 
+/* Utiliser pour aligner le texte avec les puces */
+.stRadio > div {
+    display: flex;
+    flex-direction: column;
+}
+
+.stRadio > div > label {
+    display: flex;
+    align-items: center;
+}
+
+.stRadio > div > label > div[role="radiogroup"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.stRadio > div > label > div[role="radiogroup"] > label {
+    display: flex;
+    align-items: center;
+}
+
+.stRadio > div > label > div[role="radiogroup"] > label > div:first-child {
+    margin-right: 10px;
+}
+
+
 /* Icon Image */
 .sidebar .icon-image {
     display: block;
