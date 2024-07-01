@@ -1,6 +1,16 @@
 import streamlit as st
 
 def app():
+     # Afficher le bandeau en haut de la page
+    st.markdown(
+        """
+        <div class="banner">
+            <img src="image/Bandeau-page.jpg" alt="Bandeau">
+        </div>
+        """,
+        unsafe_allow_html=True
+    )
+    # Texte de la page
     st.markdown(
         """
         <div class="container">
