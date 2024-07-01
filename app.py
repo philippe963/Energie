@@ -46,8 +46,12 @@ PAGES = {
     "Source": page8_source
 }
 
-# Barre de navigation
+"""# Barre de navigation
 st.sidebar.title("Navigation")
 selection = st.sidebar.radio("", list(PAGES.keys()))
 page = PAGES[selection]
-page.app()
+page.app()"""
+
+st.sidebar.title("Sommaire")
+pages= PAGES[selection]
+page=st.sidebar.radio("Aller vers", list(PAGES.keys()))
