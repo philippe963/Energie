@@ -25,5 +25,6 @@ def app():
         unsafe_allow_html=True
     )
     
-    # Afficher l'image en haut de la page
+ # Afficher l'image en haut de la page
     image = Image.open("image/page-accueil.jpg")  # Remplacez par le chemin de votre image
+    st.image(image, use_column_width=True)
