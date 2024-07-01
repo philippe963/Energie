@@ -48,16 +48,6 @@ PAGES = {
 
 # Barre de navigation
 st.sidebar.title("Navigation")
-
-# Ajouter l'image de l'icône
-st.sidebar.image("path_to_your_icon_image.png", use_column_width=True)
-
-# Afficher la page de garde en premier
-if "selected_page" not in st.session_state:
-    st.session_state.selected_page = "Page de Garde"
-    page1_garde.app()
-else:
-    selection = st.sidebar.radio("Aller à", list(PAGES.keys()), index=list(PAGES.keys()).index(st.session_state.selected_page))
-    page = PAGES[selection]
-    page.app()
-    st.session_state.selected_page = selection
+selection = st.sidebar.radio("Aller à", list(PAGES.keys()))
+page = PAGES[selection]
+page.app()
