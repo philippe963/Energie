@@ -7,6 +7,20 @@ body {
     padding: 0;
 }
 
+/* Bandeau */
+.banner {
+    position: relative;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
 /* Titres */
 h1 {
     color: #2c3e50;
