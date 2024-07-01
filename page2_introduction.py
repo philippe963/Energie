@@ -1,33 +1,8 @@
 import streamlit as st
 
 def app():
-    # Utilisation de HTML et CSS pour afficher l'image en haut à droite
-    st.markdown(
-        """
-        <style>
-        .banner-top-right {
-            position: absolute;
-            top: 0;
-            right: 0;
-            width: 100%;
-            text-align: right;
-            margin: 0;
-            padding: 0;
-            z-index: 1;
-        }
-
-        .banner-top-right img {
-            width: 100%;
-            height: auto;
-            display: block;
-        }
-        </style>
-        <div class="banner-top-right">
-            <img src="image/Bandeau-page.jpg" alt="Bandeau">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    # Afficher le bandeau en haut de la page
+    st.image("image/Bandeau-page.jpg", use_column_width=True)
 
     # Contenu de la page
     st.markdown(
