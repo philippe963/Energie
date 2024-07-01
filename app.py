@@ -30,7 +30,7 @@ import page2_introduction
 import page3_dataviz
 import page4_production
 import page5_renouvelable_fossile
-import page6_prédiction
+import page6_prediction
 import page7_conclusion
 import page8_source
 
@@ -40,7 +40,7 @@ PAGES = {
     "Data Visualisation": page3_dataviz,
     "Production": page4_production,
     "Énergies Renouvelables vs Énergie Fossile": page5_renouvelable_fossile,
-    "Prédiction": page6_prédiction,
+    "Prédiction": page6_prediction,
     "Conclusion": page7_conclusion,
     "Source": page8_source
 }
