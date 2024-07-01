@@ -36,6 +36,7 @@ import page8_source
 
 # Dictionnaire pour les pages
 PAGES = {
+    "Accueil": page1_garde,
     "Introduction": page2_introduction,
     "Data Visualisation": page3_dataviz,
     "Production": page4_production,
