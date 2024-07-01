@@ -6,7 +6,7 @@ def app():
     st.markdown(
         """
         <div class="banner">
-               image = Image.open("image/page-accueil.jpg")
+               image = Image.open("image/Bandeau-page.jpg")
                st.image(image, use_column_width=True)
         </div>
         """,
@@ -15,7 +15,7 @@ def app():
 
 
     # Afficher l'image en haut de la page
-    image = Image.open("image/page-accueil.jpg") 
+    image = Image.open("image/Bandeau-page.jpg") 
     st.image(image, use_column_width=True)
 
     # Texte de la page
