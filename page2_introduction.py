@@ -13,9 +13,7 @@ def app():
     )
 
 
-    # Afficher l'image en haut de la page
-    image = Image.open("image/Bandeau-page.jpg") 
-    st.image(image, use_column_width=True)
+
 
     # Texte de la page
     st.markdown(
