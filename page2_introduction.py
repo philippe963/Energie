@@ -2,18 +2,6 @@ import streamlit as st
 from PIL import Image
 
 def app():
-     # Afficher le bandeau en haut de la page
-    st.markdown(
-        """
-        <div class="banner">
-               image = Image.open("image/Bandeau-page.jpg")
-               st.image(image, use_column_width=True)
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
-
-
     # Afficher l'image en haut de la page
     image = Image.open("image/Bandeau-page.jpg") 
     st.image(image, use_column_width=True)
