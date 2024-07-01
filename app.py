@@ -48,6 +48,6 @@ PAGES = {
 
 # Barre de navigation
 st.sidebar.title("Navigation")
-selection = st.sidebar.radio(list(PAGES.keys()))
+selection = st.sidebar.radio("", list(PAGES.keys()))
 page = PAGES[selection]
 page.app()
