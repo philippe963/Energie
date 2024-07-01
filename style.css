@@ -68,7 +68,7 @@ h5 {
 p {
     font-size: 16px;
     line-height: 1.6;
-    margin: 20px;       /* Marge de 20px */
+    margin: 20px 0px;       /* Marge de 20px */
     text-align: justify;
 }
 
