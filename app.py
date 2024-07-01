@@ -40,7 +40,7 @@ PAGES = {
     "Introduction": page2_introduction,
     "Data Visualisation": page3_dataviz,
     "Production": page4_production,
-    "Énergies Renouvelables vs Énergie Fossile": page5_renouvelable_fossile,
+    "Renouvelables vs Fossile": page5_renouvelable_fossile,
     "Prédiction": page6_prediction,
     "Conclusion": page7_conclusion,
     "Source": page8_source
