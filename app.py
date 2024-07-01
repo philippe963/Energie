@@ -53,5 +53,5 @@ page = PAGES[selection]
 page.app()"""
 
 st.sidebar.title("Sommaire")
-pages= PAGES[selection]
-page=st.sidebar.radio("Aller vers", list(PAGES.keys()))
+page = PAGES[selection]
+selection =st.sidebar.radio("Aller vers", list(PAGES.keys()))
