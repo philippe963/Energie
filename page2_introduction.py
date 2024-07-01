@@ -2,7 +2,7 @@ import streamlit as st
 
 def app():
     # Afficher le bandeau en haut de la page
-    st.image("image/Bandeau-page.jpg", use_column_width=True)
+    st.image("image/Bandeau-page.jpg", width=1200)
 
     # Contenu de la page
     st.markdown(
