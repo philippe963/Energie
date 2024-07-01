@@ -29,8 +29,6 @@ def app():
     image = Image.open("image/page-accueil.jpg")  # Remplacez par le chemin de votre image
     st.markdown(f'<div class="image-container"><img src="data:image/jpeg;base64,{st.image(image, use_column_width=True).data}" alt="Image" style="width: 100%; margin: 0; padding: 0;"></div>', unsafe_allow_html=True)
     
-    # Utilisation de HTML et CSS pour centrer le titre
-    st.markdown('<div class="centered-title">Bienvenue dans le Projet Énergie</div>', unsafe_allow_html=True)
 
 if __name__ == "__main__":
     app()
