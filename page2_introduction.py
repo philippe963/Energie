@@ -2,15 +2,13 @@ import streamlit as st
 from PIL import Image
 
 def app():
-    # Afficher l'image en haut de la page
-    image = Image.open("image/Bandeau-page.jpg") 
-    st.image(image, use_column_width=True)
+    # Afficher le bandeau en haut de la page
+    st.image("image/Bandeau-page.jpg", use_column_width=True)
 
     # Texte de la page
     st.markdown(
         """
         <div class="container">
-        <img src="image/Bandeau-page.jpg">
             <h1>Introduction</h1>
             <p>Dans un contexte mondial où la transition énergétique est devenue une priorité, la France se positionne en tant qu'acteur engagé dans la recherche d'un équilibre optimal entre la production d'énergie et les impératifs environnementaux.</p>
             <p>Ce rapport vise à éclairer les dynamiques de la production et de la consommation d’électricité en France métropolitaine, à travers une analyse rigoureuse des données de 2013 à 2022, fournies par l’Open Data Réseaux Énergies (ODRÉ).</p>
