@@ -185,3 +185,21 @@ table th, table td {
 table th {
     background-color: #f4f4f4;
 }
+
+/* Sidebar Navigation */
+.sidebar .nav-item {
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .nav-item .nav-link {
+    margin-left: 10px;
+}
+
+/* Icon Image */
+.sidebar .icon-image {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    height: auto;
+}

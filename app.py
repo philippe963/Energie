@@ -1,12 +1,3 @@
-""" Commande à exécuter sur Powershell Prompt pour visualiser streamlit sur le web
-cd '1 - Formation data analyst'
-cd 'Sprint 3  Machine Learning Supervisé - Streamlit'
-cd 'Streamlit'
-streamlit run 'streamlit_app.py'
-
-Une la page streamlit affichée - cliquer sur "Always re-run" pour afficher les modifications au fil de l'eau
-"""
-
 import streamlit as st
 
 # Configuration de la page
@@ -33,29 +24,39 @@ st.markdown("""
     </div>
 """, unsafe_allow_html=True)
 
-# Dictionnaire pour les pages
+# Importer les pages
 import page1_garde
 import page2_introduction
 import page3_dataviz
 import page4_production
 import page5_renouvelable_fossile
-import page6_prediction
+import page6_prédiction
 import page7_conclusion
 import page8_source
 
+# Dictionnaire pour les pages
 PAGES = {
-    "Page de Garde": page1_garde,
     "Introduction": page2_introduction,
     "Data Visualisation": page3_dataviz,
     "Production": page4_production,
     "Énergies Renouvelables vs Énergie Fossile": page5_renouvelable_fossile,
-    "Prédiction": page6_prediction,
+    "Prédiction": page6_prédiction,
     "Conclusion": page7_conclusion,
     "Source": page8_source
 }
 
 # Barre de navigation
 st.sidebar.title("Navigation")
-selection = st.sidebar.radio("Aller à", list(PAGES.keys()))
-page = PAGES[selection]
-page.app()
+
+# Ajouter l'image de l'icône
+st.sidebar.image("path_to_your_icon_image.png", use_column_width=True)
+
+# Afficher la page de garde en premier
+if "selected_page" not in st.session_state:
+    st.session_state.selected_page = "Page de Garde"
+    page1_garde.app()
+else:
+    selection = st.sidebar.radio("Aller à", list(PAGES.keys()), index=list(PAGES.keys()).index(st.session_state.selected_page))
+    page = PAGES[selection]
+    page.app()
+    st.session_state.selected_page = selection
