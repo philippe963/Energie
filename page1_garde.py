@@ -4,5 +4,5 @@ from PIL import Image
 def app():
     st.title("Page de Garde")
     st.write("Bienvenue dans le Projet Énergie")
-    image = Image.open("image/image_accueil2.jpg")  # Remplacez par le chemin de votre image
+    image = Image.open("image/image-accueil2.jpg")  # Remplacez par le chemin de votre image
     st.image(image, use_column_width=True)
