@@ -5,7 +5,7 @@ def app():
      # Afficher le bandeau en haut de la page
     st.markdown(
         """
-        <div class="banner">
+        <div>
             <img src="image/Bandeau-page.jpg" alt="Bandeau">
         </div>
         """,
