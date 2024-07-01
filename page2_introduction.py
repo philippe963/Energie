@@ -1,8 +1,22 @@
 import streamlit as st
 
 def app():
-    # Afficher le bandeau en haut de la page
-    st.image("image/Bandeau-page.jpg", width=1200)
+    st.markdown(
+        """
+        <style>
+        .centered-image {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        </style>
+        """,
+        unsafe_allow_html=True
+    )
+
+    # Afficher le bandeau en haut de la page avec une largeur maximale de 1200 pixels et centré
+    st.markdown('<img src="image/Bandeau-page.jpg" class="centered-image" width="1200">', unsafe_allow_html=True)
+    
 
     # Contenu de la page
     st.markdown(
