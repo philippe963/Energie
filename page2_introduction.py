@@ -2,15 +2,8 @@ import streamlit as st
 from PIL import Image
 
 def app():
-    # Utilisation de HTML et CSS pour afficher l'image en haut à gauche
-    st.markdown(
-        """
-        <div class="banner-top-left">
-            <img src="image/Bandeau-page.jpg" alt="Bandeau">
-        </div>
-        """,
-        unsafe_allow_html=True
-    )
+    # Afficher le bandeau en haut de la page
+    st.image("image/Bandeau-page.jpg", use_column_width=True)
 
     # Contenu de la page
     st.markdown(
