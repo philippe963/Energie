@@ -10,7 +10,7 @@ def app():
     st.markdown(
         """
         <div class="container">
-        <img src="image/Bandeau-page.jpg" alt="Bandeau">
+        <img src="image/Bandeau-page.jpg">
             <h1>Introduction</h1>
             <p>Dans un contexte mondial où la transition énergétique est devenue une priorité, la France se positionne en tant qu'acteur engagé dans la recherche d'un équilibre optimal entre la production d'énergie et les impératifs environnementaux.</p>
             <p>Ce rapport vise à éclairer les dynamiques de la production et de la consommation d’électricité en France métropolitaine, à travers une analyse rigoureuse des données de 2013 à 2022, fournies par l’Open Data Réseaux Énergies (ODRÉ).</p>
