@@ -1,5 +1,4 @@
 import streamlit as st
-from PIL import Image
 
 def app():
     # Afficher le bandeau en haut de la page
