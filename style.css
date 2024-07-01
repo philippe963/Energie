@@ -1,3 +1,8 @@
+/* Déclaration de la variable pour le décalage */
+:root {
+    --radio-margin-right: 10px; /* Ajustez cette valeur pour augmenter ou diminuer le décalage */
+}
+
 /* Style général */
 body {
     background-color: #f0f0f5;
@@ -193,7 +198,7 @@ table th {
 }
 
 .sidebar .nav-item .nav-link {
-    margin-left: 10px;
+    margin-left: var(--radio-margin-right);
 }
 
 /* Utiliser pour aligner le texte avec les puces */
@@ -218,9 +223,8 @@ table th {
 }
 
 .stRadio > div > label > div[role="radiogroup"] > label > div:first-child {
-    margin-right: 10px;
+    margin-right: var(--radio-margin-right);
 }
-
 
 /* Icon Image */
 .sidebar .icon-image {
