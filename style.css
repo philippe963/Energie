@@ -68,13 +68,14 @@ h5 {
 p {
     font-size: 16px;
     line-height: 1.6;
-    margin: 20px 0px;       /* Marge de 20px */
+    margin: 0px 20px;       
     text-align: justify;
 }
 
 /* Menu */
 menu {
-    font-size: 18px;
+    font-size: 16px;
+    line-height: 1.6;
     text-align: justify;
 }
 
