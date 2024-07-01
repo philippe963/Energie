@@ -17,13 +17,6 @@ st.markdown("""
     <script src="chart_config.js"></script>
 """, unsafe_allow_html=True)
 
-# Ajouter un conteneur pour le graphique
-st.markdown("""
-    <div>
-        <canvas id="myChart" width="400" height="400"></canvas>
-    </div>
-""", unsafe_allow_html=True)
-
 # Importer les pages
 import page1_garde
 import page2_introduction
