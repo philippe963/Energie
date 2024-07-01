@@ -5,15 +5,18 @@ def app():
      # Afficher le bandeau en haut de la page
     st.markdown(
         """
-        <div>
-            <img src="image/Bandeau-page.jpg" alt="Bandeau">
+        <div class="banner">
+               image = Image.open("image/page-accueil.jpg")
+               st.image(image, use_column_width=True)
         </div>
         """,
         unsafe_allow_html=True
     )
 
 
-
+    # Afficher l'image en haut de la page
+    image = Image.open("image/page-accueil.jpg") 
+    st.image(image, use_column_width=True)
 
     # Texte de la page
     st.markdown(
