@@ -11,9 +11,11 @@ def app():
             <p>Le jeu de données qui sert de socle à notre étude est une véritable cartographie de l'électricité métropolitaine française, illustrant non seulement la consommation totale mais également la répartition détaillée de la production par filière énergétique par région.</p>
             <p>Dans cette optique, notre analyse s'articule autour de la valorisation des connaissances accumulées par les membres de notre équipe, issus pour certains du secteur énergétique, pour déchiffrer et contextualiser les informations contenues dans ces données. Cependant, le monde de l’énergie est vaste et complexe. Notre travail a donc d’abord été d’appréhender et comprendre l’ensemble des variables présentes dans le jeu de données.</p>
             <h1>Nos objectifs :</h1>
-            <p>Est-il possible grâce à ce jeu de données de construire un modèle précis de forecasting de la consommation pour un jour et une heure donnée afin de pouvoir adapter la production en conséquence ?</p>
-            <p>Que peut-on dire de la répartition à la maille régionale des différents moyens de production d’électricité ?</p>
-            <p>Quelle évolution sur les dix dernières années entre les ENR et les énergies fossiles ? Observe-t-on un basculement vers les ENR ? Peut-on prédire cette évolution ?</p>
+            <ul>
+                <li>Est-il possible grâce à ce jeu de données de construire un modèle précis de forecasting de la consommation pour un jour et une heure donnée afin de pouvoir adapter la production en conséquence ?</li>
+                <li>Que peut-on dire de la répartition à la maille régionale des différents moyens de production d’électricité ?</li>
+                <li>Quelle évolution sur les dix dernières années entre les ENR et les énergies fossiles ? Observe-t-on un basculement vers les ENR ? Peut-on prédire cette évolution ?</li>
+            </ul>
         </div>
         """,
         unsafe_allow_html=True
